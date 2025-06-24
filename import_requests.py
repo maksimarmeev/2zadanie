@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import time
 API_url = 'https://api.golemio.cz/v2/municipallibraries'
-API_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzcxOSwiaWF0IjoxNzUwNzEzOTUwLCJleHAiOjExNzUwNzEzOTUwLCJpc3MiOiJnb2xlbWlvIiwianRpIjoiOTkyODUyY2MtNjkxMi00OWU0LWIyYWMtOWRjZTM0MjhmOGY5In0.PyqhwrynUSe3P_g7KvdJ9pYDXDogqE-IuKv5Hzc81oI'
+API_token = ''
 headers = {
     'X-Access-Token': API_token
 }
