@@ -14,7 +14,6 @@ def collect_data(limit = 10000, offset = 0):
     }
     try: 
         response = requests.get(API_url, headers=headers, params=params)
-        print("Тип данных:", type(response.json()))
         return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Request API failed {str(e)}")
